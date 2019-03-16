@@ -1,13 +1,14 @@
 package za.ac.cput.org.Assignment4;
 
-public class EmployeeViolated
+import java.util.Objects;
+
+public class EmployeeObeySRP
 {
     private String EmployeeId;
     private String name;
     private String DateOfJoining;
 
-
-    public EmployeeViolated()
+    public EmployeeObeySRP()
     {
 
     }
@@ -42,18 +43,24 @@ public class EmployeeViolated
         this.name = name;
     }
 
-    public Boolean isPromotionDueThisYear() /// violation its not suposse to be here
+    @Override
+    public boolean equals(Object o)
     {
-        return false;
-    }
-
-    public double calcIncomeTaxForCurrentYear()/// violation
-    {
-        return 200;
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        EmployeeObeySRP that = (EmployeeObeySRP) o;
+        return Objects.equals(EmployeeId, that.EmployeeId);
     }
 
     @Override
-    public String toString() {
-        return "EmployeeViolated{" + "EmployeeId='" + EmployeeId + '\'' + ", name='" + name + '\'' + ", DateOfJoining='" + DateOfJoining + '\'' + '}';
+    public int hashCode()
+    {
+        return Objects.hash(EmployeeId);
+    }
+
+    @Override
+    public String toString()
+    {
+        return "EmployeeObeySRP{" + "EmployeeId='" + EmployeeId + '\'' + ", name='" + name + '\'' + ", DateOfJoining='" + DateOfJoining + '\'' + '}';
     }
 }
