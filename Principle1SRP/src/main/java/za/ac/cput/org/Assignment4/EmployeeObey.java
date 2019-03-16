@@ -8,7 +8,6 @@ public class EmployeeObey
     private String name;
     private String DateOfJoining;
 
-
     public EmployeeObey()
     {
 

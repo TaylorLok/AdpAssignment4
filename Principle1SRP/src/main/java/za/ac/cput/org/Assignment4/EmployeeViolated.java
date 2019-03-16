@@ -51,4 +51,9 @@ public class EmployeeViolated
     {
         return 200;
     }
+
+    @Override
+    public String toString() {
+        return "EmployeeViolated{" + "EmployeeId='" + EmployeeId + '\'' + ", name='" + name + '\'' + ", DateOfJoining='" + DateOfJoining + '\'' + '}';
+    }
 }
