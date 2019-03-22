@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e604235-edc5-4fbc-ad34-5d291a4bd728" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/src/main/java/za/ac/cput/org/Assignment4/LiskovSubsitutionPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/src/main/java/za/ac/cput/org/Assignment4/PrincipleOfLeastKnowledge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/Principle1SRP/InterfaceSegregationPrinciple/target/" />
     <ignored path="$PROJECT_DIR$/Principle1SRP/OpenClosePrinciple/target/" />
     <ignored path="$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/target/" />
+    <ignored path="$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Principle1SRP/DependancyInversionPrinciple/src/main/java/za/ac/cput/org/Assignment4/IWorkerRespectingTheprinciple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
-              <folding>
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Principle1SRP/InterfaceSegregationPrinciple/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -111,15 +97,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/src/main/java/za/ac/cput/org/Assignment4/LiskovSubsitutionPrinciple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="663">
+              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#546#552#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/src/main/java/za/ac/cput/org/Assignment4/PrincipleOfLeastKnowledge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,6 +194,8 @@
         <option value="$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/pom.xml" />
         <option value="$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/src/main/java/za/ac/cput/org/Assignment4/BirdImpl.java" />
         <option value="$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/src/main/java/za/ac/cput/org/Assignment4/LiskovSubsitutionPrinciple.java" />
+        <option value="$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/pom.xml" />
+        <option value="$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/src/main/java/za/ac/cput/org/Assignment4/PrincipleOfLeastKnowledge.java" />
       </list>
     </option>
   </component>
@@ -244,20 +251,20 @@
               <item name="AdpAssignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdpAssignment4" type="462c0819:PsiDirectoryNode" />
               <item name="Principle1SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="LiskovSubsitutionPrinciple" type="462c0819:PsiDirectoryNode" />
+              <item name="PrincipleOfLeastKnowledge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdpAssignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdpAssignment4" type="462c0819:PsiDirectoryNode" />
               <item name="Principle1SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="LiskovSubsitutionPrinciple" type="462c0819:PsiDirectoryNode" />
+              <item name="PrincipleOfLeastKnowledge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdpAssignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdpAssignment4" type="462c0819:PsiDirectoryNode" />
               <item name="Principle1SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="LiskovSubsitutionPrinciple" type="462c0819:PsiDirectoryNode" />
+              <item name="PrincipleOfLeastKnowledge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -265,7 +272,7 @@
               <item name="AdpAssignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdpAssignment4" type="462c0819:PsiDirectoryNode" />
               <item name="Principle1SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="LiskovSubsitutionPrinciple" type="462c0819:PsiDirectoryNode" />
+              <item name="PrincipleOfLeastKnowledge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -274,7 +281,7 @@
               <item name="AdpAssignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdpAssignment4" type="462c0819:PsiDirectoryNode" />
               <item name="Principle1SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="LiskovSubsitutionPrinciple" type="462c0819:PsiDirectoryNode" />
+              <item name="PrincipleOfLeastKnowledge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -290,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553255622256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553256259226" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringAdp" />
@@ -479,7 +486,7 @@
       <workItem from="1552715899154" duration="260000" />
       <workItem from="1552718346974" duration="158000" />
       <workItem from="1552718752644" duration="7306000" />
-      <workItem from="1553247143598" duration="8138000" />
+      <workItem from="1553247143598" duration="8774000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <created>1552725373895</created>
@@ -544,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553253562681</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit2">
+      <created>1553255740473</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553255740473</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -580,7 +594,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26250000" />
+    <option name="totallyTimeSpent" value="26886000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -613,7 +627,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -920,12 +934,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Principle1SRP/LiskovSubsitutionPrinciple/src/main/java/za/ac/cput/org/Assignment4/LiskovSubsitutionPrinciple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="663">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#546#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Principle1SRP/PrincipleOfLeastKnowledge/src/main/java/za/ac/cput/org/Assignment4/PrincipleOfLeastKnowledge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
