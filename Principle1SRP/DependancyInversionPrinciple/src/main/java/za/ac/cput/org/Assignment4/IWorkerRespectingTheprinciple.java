@@ -38,3 +38,5 @@ class Manager2
 }
 
 //////***** This a good example which is not violating the dependancy inversion*****///////
+//// When this principle is applied it means the high level
+// classes are not working directly with low level classes, they are using interfaces as an abstract layer.
