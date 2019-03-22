@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Principle1SRP" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Principle1SRP/DependancyInversionPrinciple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Principle1SRP/InterfaceSegregationPrinciple" charset="UTF-8" />
   </component>
 </project>
