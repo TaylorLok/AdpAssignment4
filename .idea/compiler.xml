@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DependancyInversionPrinciple" />
         <module name="InterfaceSegregationPrinciple" />
+        <module name="LiskovSubsitutionPrinciple" />
         <module name="OpenClosePrinciple" />
       </profile>
     </annotationProcessing>
